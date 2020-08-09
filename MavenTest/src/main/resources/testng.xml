@@ -1,0 +1,10 @@
+
+<suite name = "Test AAS Suite">
+	
+	<test name = "Test AAS Demo">
+		<packages>
+			<package name = "AASTestCase.MavenTest.*" />
+		</packages>
+	</test>
+
+</suite>
