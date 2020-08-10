@@ -1,5 +1,9 @@
 
 <suite name = "Test AAS Suite">
+
+	<listeners>
+		<listener class-name="AASTestCAse.ExtentReportListener.ExtentReportListener" />
+	</listeners>
 	
 	<test name = "Test AAS Demo">
 		<packages>
