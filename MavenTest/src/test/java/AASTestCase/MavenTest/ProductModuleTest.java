@@ -10,8 +10,10 @@ import java.text.DecimalFormat;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -24,7 +26,7 @@ public class ProductModuleTest {
 	ExtraPTTest extraPTTest;
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	
-	static String testPT = "10.5";
+	static String testPT = "12.5";
 	
 	
 	@DataProvider(name="ExtraPTCase")
@@ -47,7 +49,7 @@ public class ProductModuleTest {
 		};
 	}
 	
-	@BeforeTest
+	@BeforeSuite
 	public void setUP() {
 		driverManager = DriverManagerFactory.getDriverManager(DriverType.CHROME);
 		
@@ -73,5 +75,11 @@ public class ProductModuleTest {
 		Thread.sleep(2000);
 		Assert.assertEquals("true", extraPTTest.getPTResult(prdID, formatter.format(resultPT)));
 	}
+	
+	 @AfterSuite
+	    public void tearDown() {
+	          
+	        driver.quit();
+	    }
 
 }
