@@ -24,7 +24,7 @@ public class ProductModuleTest {
 	ExtraPTTest extraPTTest;
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	
-	static String testPT = "15.5";
+	static String testPT = "10.5";
 	
 	
 	@DataProvider(name="ExtraPTCase")
