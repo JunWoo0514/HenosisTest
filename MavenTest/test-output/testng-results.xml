@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-10T09:57:30 SGT" name="Default suite" finished-at="2020-08-10T09:59:08 SGT" duration-ms="97968">
+  <suite started-at="2020-08-10T11:23:31 SGT" name="Default suite" finished-at="2020-08-10T11:25:09 SGT" duration-ms="97602">
     <groups>
     </groups>
-    <test started-at="2020-08-10T09:57:30 SGT" name="Default test" finished-at="2020-08-10T09:59:08 SGT" duration-ms="97968">
+    <test started-at="2020-08-10T11:23:31 SGT" name="Default test" finished-at="2020-08-10T11:25:09 SGT" duration-ms="97602">
       <class name="AASTestCase.MavenTest.ProductModuleTest">
-        <test-method is-config="true" signature="setUP()[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@d706f19]" started-at="2020-08-10T09:57:30 SGT" name="setUP" finished-at="2020-08-10T09:57:34 SGT" duration-ms="4178" status="PASS">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@1f3f4916]" started-at="2020-08-10T11:23:31 SGT" name="setUP" finished-at="2020-08-10T11:23:35 SGT" duration-ms="3921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method is-config="true" signature="loginTest()[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@d706f19]" started-at="2020-08-10T09:57:34 SGT" name="loginTest" finished-at="2020-08-10T09:57:35 SGT" duration-ms="1636" status="PASS">
+        <test-method is-config="true" signature="loginTest()[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@1f3f4916]" started-at="2020-08-10T11:23:35 SGT" name="loginTest" finished-at="2020-08-10T11:23:37 SGT" duration-ms="1523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@d706f19]" started-at="2020-08-10T09:57:35 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T09:57:42 SGT" duration-ms="6938" status="PASS">
+        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@1f3f4916]" started-at="2020-08-10T11:23:37 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T11:23:43 SGT" duration-ms="6761" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,14 +29,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[13.5]]>
+                <![CDATA[12.5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtraPTTest01 -->
-        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@d706f19]" started-at="2020-08-10T09:57:42 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T09:57:49 SGT" duration-ms="6564" status="PASS">
+        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@1f3f4916]" started-at="2020-08-10T11:23:43 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T11:23:50 SGT" duration-ms="6559" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,14 +50,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[13.5]]>
+                <![CDATA[12.5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtraPTTest01 -->
-        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@d706f19]" started-at="2020-08-10T09:57:49 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T09:57:55 SGT" duration-ms="6510" status="PASS">
+        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@1f3f4916]" started-at="2020-08-10T11:23:50 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T11:23:57 SGT" duration-ms="6633" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -71,14 +71,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[13.5]]>
+                <![CDATA[12.5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtraPTTest01 -->
-        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@d706f19]" started-at="2020-08-10T09:57:55 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T09:58:02 SGT" duration-ms="6520" status="PASS">
+        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@1f3f4916]" started-at="2020-08-10T11:23:57 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T11:24:03 SGT" duration-ms="6549" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -92,14 +92,57 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[13.5]]>
+                <![CDATA[12.5]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at AASTestCase.MavenTest.ProductModuleTest.ExtraPTTest01(ProductModuleTest.java:74)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtraPTTest01 -->
-        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@d706f19]" started-at="2020-08-10T09:58:02 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T09:58:08 SGT" duration-ms="6502" status="PASS">
+        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@1f3f4916]" started-at="2020-08-10T11:24:03 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T11:24:10 SGT" duration-ms="6531" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -113,14 +156,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[13.5]]>
+                <![CDATA[12.5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtraPTTest01 -->
-        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@d706f19]" started-at="2020-08-10T09:58:08 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T09:58:15 SGT" duration-ms="6593" status="PASS">
+        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@1f3f4916]" started-at="2020-08-10T11:24:10 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T11:24:16 SGT" duration-ms="6511" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -134,14 +177,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[13.5]]>
+                <![CDATA[12.5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtraPTTest01 -->
-        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@d706f19]" started-at="2020-08-10T09:58:15 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T09:58:22 SGT" duration-ms="6668" status="PASS">
+        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@1f3f4916]" started-at="2020-08-10T11:24:16 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T11:24:23 SGT" duration-ms="6603" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -155,14 +198,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[13.5]]>
+                <![CDATA[12.5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtraPTTest01 -->
-        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@d706f19]" started-at="2020-08-10T09:58:22 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T09:58:28 SGT" duration-ms="6651" status="PASS">
+        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@1f3f4916]" started-at="2020-08-10T11:24:23 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T11:24:30 SGT" duration-ms="6664" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -176,14 +219,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[13.5]]>
+                <![CDATA[12.5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtraPTTest01 -->
-        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@d706f19]" started-at="2020-08-10T09:58:28 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T09:58:35 SGT" duration-ms="6644" status="PASS">
+        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@1f3f4916]" started-at="2020-08-10T11:24:30 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T11:24:36 SGT" duration-ms="6660" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -197,14 +240,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[13.5]]>
+                <![CDATA[12.5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtraPTTest01 -->
-        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@d706f19]" started-at="2020-08-10T09:58:35 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T09:58:41 SGT" duration-ms="6475" status="PASS">
+        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@1f3f4916]" started-at="2020-08-10T11:24:36 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T11:24:43 SGT" duration-ms="6523" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -218,14 +261,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[13.5]]>
+                <![CDATA[12.5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtraPTTest01 -->
-        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@d706f19]" started-at="2020-08-10T09:58:41 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T09:58:48 SGT" duration-ms="6491" status="PASS">
+        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@1f3f4916]" started-at="2020-08-10T11:24:43 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T11:24:49 SGT" duration-ms="6492" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -239,14 +282,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[13.5]]>
+                <![CDATA[12.5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtraPTTest01 -->
-        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@d706f19]" started-at="2020-08-10T09:58:48 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T09:58:54 SGT" duration-ms="6516" status="PASS">
+        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@1f3f4916]" started-at="2020-08-10T11:24:49 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T11:24:56 SGT" duration-ms="6519" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -260,14 +303,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[13.5]]>
+                <![CDATA[12.5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtraPTTest01 -->
-        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@d706f19]" started-at="2020-08-10T09:58:54 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T09:59:01 SGT" duration-ms="6498" status="PASS">
+        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@1f3f4916]" started-at="2020-08-10T11:24:56 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T11:25:02 SGT" duration-ms="6530" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -281,14 +324,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[13.5]]>
+                <![CDATA[12.5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtraPTTest01 -->
-        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@d706f19]" started-at="2020-08-10T09:59:01 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T09:59:08 SGT" duration-ms="6544" status="PASS">
+        <test-method signature="ExtraPTTest01(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AASTestCase.MavenTest.ProductModuleTest@1f3f4916]" started-at="2020-08-10T11:25:02 SGT" name="ExtraPTTest01" data-provider="ExtraPTCase" finished-at="2020-08-10T11:25:09 SGT" duration-ms="6583" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -302,7 +345,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[13.5]]>
+                <![CDATA[12.5]]>
               </value>
             </param>
           </params>

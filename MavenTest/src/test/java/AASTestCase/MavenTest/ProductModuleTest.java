@@ -24,7 +24,7 @@ public class ProductModuleTest {
 	ExtraPTTest extraPTTest;
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	
-	static String testPT = "13.5";
+	static String testPT = "15.5";
 	
 	
 	@DataProvider(name="ExtraPTCase")
@@ -43,7 +43,7 @@ public class ProductModuleTest {
 			{"PIKACHU","11",testPT},
 			{"PIKACHU","12",testPT},
 			{"PIKACHU","13",testPT},
-			{"PIKACHU","14",testPT},
+			{"PIKACHU","14",testPT}
 		};
 	}
 	

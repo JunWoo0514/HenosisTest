@@ -5,7 +5,7 @@
     <classes>
       <class name="AASTestCase.MavenTest.ProductModuleTest">
         <methods>
-          <include name="ExtraPTTest01"/>
+          <include name="ExtraPTTest01" invocation-numbers="3"/>
           <include name="setUP"/>
           <include name="loginTest"/>
         </methods>
